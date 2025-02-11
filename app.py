@@ -191,7 +191,7 @@ def run_selenium_sync(part_number):
 
 def main():
     # Display the sidebar with the search bar
-    st.sidebar.title('🔍 Search bar')
+    st.sidebar.title('🔍 Search bar__')
     part_number = st.sidebar.text_input('Enter part number')
     scraped_data = {}
 
